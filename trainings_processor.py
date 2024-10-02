@@ -53,7 +53,7 @@ def task3_expired_or_soon_expiring_trainings(data, current_date):
 # Main function to execute the tasks
 def main():
     # Load the training data
-    data = load_data('trainings.txt')
+    data = load_data('trainings (correct).txt')
 
     # Task 1: Completed Training Count
     completed_training_count = task1_count_completed_trainings(data)
